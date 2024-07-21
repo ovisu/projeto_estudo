@@ -1,0 +1,10 @@
+.produtoWrapper {
+  background-color: aqua;
+}
+
+.prodImgWrapper {
+  width: 70vw;
+}
+.prodImgWrapper img {
+  width: 100%;
+}
