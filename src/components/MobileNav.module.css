@@ -1,0 +1,77 @@
+header {
+  background-color: white;
+  height: 8vh;
+  position: relative;
+}
+
+.logoWrapper {
+  max-width: 100%;
+}
+
+.logoWrapper img {
+  width: 100%;
+  height: 6vh;
+}
+
+.iconShopWrapper {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.iconShopWrapper p {
+  font-weight: 200;
+}
+.iconShopWrapper img {
+  width: 100%;
+  height: 4vh;
+  font-weight: 100;
+}
+
+.dropMenu {
+  width: 100vw;
+  height: 92vh;
+  position: absolute;
+  top: 8vh;
+  left: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: all ease-in-out 800ms;
+}
+
+.dropMenu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.dropMenu ul li {
+  font-size: 2rem;
+}
+.hidden {
+  width: 100vw;
+  height: 92vh;
+  position: absolute;
+  left: -100vw;
+  top: 8vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+
+  transition: all ease-in-out 800ms;
+}
+.hidden ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.hidden ul li {
+  font-size: 2rem;
+}

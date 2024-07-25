@@ -9,7 +9,7 @@ function Welcome() {
         style={{ backgroundImage: `url(${welcomeImg})` }}
         className={styles.welcomeImgWrapper}
       >
-        <div class={styles.welcomeBgimg}>
+        <div className={styles.welcomeBgimg}>
           <div className={styles.welcomeBg}>
             <h1>
               The spa
